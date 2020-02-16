@@ -32,5 +32,8 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': 'disabled',
+    "class-methods-use-this": "off",
+    "no-param-reassign": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
   },
 };
