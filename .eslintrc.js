@@ -34,6 +34,8 @@ module.exports = {
     'react/state-in-constructor': 'disabled',
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
 };
